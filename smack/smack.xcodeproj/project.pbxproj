@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5845FE3C219B73A10094BB99 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5845FE3B219B73A10094BB99 /* CircleImage.swift */; };
 		5899F9A92186CDC600EEEF5D /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5899F9A82186CDC600EEEF5D /* AvatarPickerVC.swift */; };
 		58CE5E9D217D2AEE0018DFF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CE5E9C217D2AEE0018DFF1 /* AppDelegate.swift */; };
 		58CE5EA2217D2AEE0018DFF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58CE5EA0217D2AEE0018DFF1 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5845FE3B219B73A10094BB99 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		5899F9A82186CDC600EEEF5D /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		58CE5E99217D2AEE0018DFF1 /* smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58CE5E9C217D2AEE0018DFF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				58CE5EBA217D8EFB0018DFF1 /* GradientView.swift */,
 				58D4FBED21810BDD004BE3E6 /* RoundedButton.swift */,
 				58E128F02191A08200B515E9 /* avatarCell.swift */,
+				5845FE3B219B73A10094BB99 /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				58CE5EB9217D867D0018DFF1 /* ChannelVC.swift in Sources */,
 				5899F9A92186CDC600EEEF5D /* AvatarPickerVC.swift in Sources */,
 				58D4FBEE21810BDD004BE3E6 /* RoundedButton.swift in Sources */,
+				5845FE3C219B73A10094BB99 /* CircleImage.swift in Sources */,
 				58CE5EB7217D866B0018DFF1 /* ChatVC.swift in Sources */,
 				58D4FBF021811681004BE3E6 /* UserDataService.swift in Sources */,
 				58CF2775217E0B57001F59D8 /* CreateAccountVC.swift in Sources */,
