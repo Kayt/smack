@@ -58,8 +58,12 @@ class LoginVC: UIViewController {
         usernameTxt.attributedPlaceholder = NSAttributedString(string: "username", attributes: [NSAttributedStringKey.foregroundColor: smackPurplePlaceHolder])
         passwordTxt.attributedPlaceholder = NSAttributedString(string: "password", attributes: [NSAttributedStringKey.foregroundColor: smackPurplePlaceHolder])
         
-        let tap = UITapGestureRecognizer(target: self, action: #selector(CreateAccountVC.handleTap))
+        let tap = UITapGestureRecognizer(target: self, action: #selector(LoginVC.handleTap))
         view.addGestureRecognizer(tap)
+    }
+    
+    @objc func handleTap(){
+        view.endEditing(true)
     }
     
 }
